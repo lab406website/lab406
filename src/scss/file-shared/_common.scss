@@ -1,0 +1,95 @@
+﻿$green: #2dcc8c;
+$deep_green:#2ECC71;
+$blue:#3498DB;
+$deep_blue:#2890B9;
+$red:#e74c3c;
+$deep_red:#c0392b;
+$grey1:#ecf0f1;
+$grey2:#bdc3c7;
+$grey3:#95a5a6;
+$grey4:#7f8c8d;
+$grey5:#34495e;
+$grey6:#2c3e50;
+$orange:#f88f55;
+$bgcolor:rgb(240,240,240);
+$contain:rgb(249,249,249);
+$border_color:rgb(219,219,219);
+@mixin trans {
+  transition-duration:0.5s;
+}
+//画一条线
+.line{
+  border-top: 1px solid $grey1;
+  width: 90%;
+}
+
+body{
+  min-width: 1080px;
+}
+body, a {
+  color: #3B4C56;
+  margin: 0px;
+  padding: 0px;
+  //font-family: sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+
+}
+
+a{
+  &:hover{
+    @include trans;
+    color: $blue;
+    text-decoration: none;
+  }
+}
+@font-face {
+  font-family: 'headerfont';
+  src: url('../fonts/loveyou.otf');
+}
+//flex布局
+.flex-col{
+  display: flex;
+  flex-flow: column;
+}
+.flex-row{
+  display: flex;
+  flex-flow: row;
+}
+.flex-1{
+  flex: 1;
+}
+.flex-2{
+  flex: 2;
+}
+.flex-3{
+  flex: 3;
+}
+.flex-4{
+  flex: 4;
+}
+.flex-5{
+  flex: 5;
+
+}
+.flex-6{
+  flex: 6;
+}
+.flex-7{
+  flex: 7;
+}
+.flex-8{
+  flex: 8;
+}
+.flex-9{
+  flex: 9;
+}
+.flex-10{
+  flex:10;
+}
+.flex-11{
+  flex:11;
+}
+.flex-12{
+  flex: 12;
+}

@@ -1,0 +1,63 @@
+/*日历控件样式*/
+#my_date {
+  width: 100%;
+  background: #fafafa;
+  border-radius: 0.3em;
+  border: 1px solid $grey2;
+  p {
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    font-size: 1em;
+    color: #666;
+    border-bottom: 2px solid $grey1;
+  }
+  table {
+    width: 100%;
+    BORDER-COLLAPSE: collapse;
+    border: solid #fafafa 1px;
+    font-size: 0.8em;
+    color: #666;
+    thead{
+      td {
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+      }
+    }
+    tbody td {
+      background-color: #FFF;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      &:hover{
+        cursor: pointer;
+        transition-duration: 0.5s;
+        background-color: lighten($blue,10);
+        border-color: $blue;
+        color: white     !important;
+      }
+    }
+  }
+}
+
+#pre_date {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  width: 40px;
+  text-align: center;
+  font-size: 1.6em;
+  cursor: pointer;
+}
+
+#n_date {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  width: 40px;
+  text-align: center;
+  font-size: 1.6em;
+  cursor: pointer;
+}

@@ -1,0 +1,86 @@
+﻿@charset "utf-8";
+@import "common.scss";
+//Header
+header{
+  //border-bottom: 1px #666 solid;
+  min-width: 1280px;
+  background-color: white;
+  box-shadow: 0px 2px 3px #888888;
+  padding: 15px 0px;
+  font-size: 14px;
+  margin: 0px;
+  .logo{
+    font-family: shouxie1,headerfont;
+    font-size: 28px;
+    padding-left: 50px;
+  }
+  .search{
+    font-size: 15px;
+  }
+  .button-group{
+    text-align: center;
+    line-height: 27px;
+    .login{
+
+    }
+    .registe{
+      margin-left: 20px;
+    }
+    a{
+      @include trans;
+      text-decoration: none;
+      &:hover{
+        color: $blue;
+      }
+    }
+  }
+  #modal{
+
+    .modal-dialog-mask {
+      z-index: 9998;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      opacity: 0.1;
+      filter: alpha(opacity=40); /*用于支持IE特么的有病*/
+      display: none;
+    }
+
+    #login {
+      font-size: 14px;
+      z-index: 9999;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin: -180px 0 0 -330px;
+      border-radius: 5px;
+      border: solid 2px #666;
+      background-color: #fff;
+      display: none;
+      box-shadow: 0 0 10px #666;
+      .input-group{
+        margin: 30px;
+      }
+    }
+
+    #register {
+      z-index: 9999;
+      position: fixed;
+      top: 45%;
+      left: 50%;
+      margin: -250px 0 0 -330px;
+      border-radius: 5px;
+      border: solid 2px #666;
+      background-color: #fff;
+      display: none;
+      box-shadow: 0 0 10px #666;
+      .input-group{
+        margin: 30px;
+      }
+    }
+
+  }
+}

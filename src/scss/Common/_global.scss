@@ -1,0 +1,134 @@
+﻿//Commonλ
+.btn-slim {
+    padding: 0 10px !important;
+    font-size: 14px;
+
+}
+
+
+.modal {
+    .modal-dialog{
+        .modal-content{
+            padding: 10px 20px 10px;
+            .modal-header{
+                .close {
+                    font-size:28px;
+                }
+                h4 {
+                    font-weight: bold;
+                }
+            }
+            .modal-body {
+                padding-top:30px;
+                form {
+                    .form-group.sub-btn {
+                        text-align: right;
+                        margin-top: 20px;
+                        margin-right: 2px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//Popwin
+.popwin{
+  width: 300px;
+  height: 150px;
+  z-index: 10001;
+  position: fixed;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: 200px;
+  .header{
+    height: 35px;
+    background-color: #F8F8F8;
+    border-radius: 2px 2px 0 0;
+    line-height: 35px;
+    .title{
+      float: left;
+      padding-left: 10px;
+    }
+    .close{
+      float:right;
+      padding-right: 10px;
+      line-height: 30px;
+    }
+  }
+  .body{
+    background-color: white;
+    padding: 1px;
+    .input{
+      margin-top: 25px;
+      margin-left: 45px;
+    }
+    .button-group{
+      height: 40px;
+      margin-top: 25px;
+      margin-bottom: 20px;
+      .confirm{
+        background-color: $blue;
+        border:1px solid $border_color;
+        color:white;
+        padding:0 15px;
+        border-radius: 2px;
+        line-height: 30px;
+        font-size: 14px;
+        border: 1px solid;
+        margin: 10px;
+        &:hover{
+          opacity: 0.7;
+        }
+      }
+      .cancel{
+        background-color: $grey1;
+        border:1px solid $border_color;
+        color:black;
+        padding:0 15px;
+        border-radius: 2px;
+        line-height: 30px;
+        font-size: 14px;
+        //border: 1px solid;
+        margin: 10px;
+        &:hover{
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
+//Popwin-input
+.input-primary{
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+  input{
+    //width: 100%;
+    border-radius: 4px;
+    border: 1px solid $border_color;
+    padding: 5px;
+    //padding-left: 10px;
+    box-shadow: 0 0 0;
+    margin-top: 10px;
+  }
+}
+//Mask
+.mask{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.4;
+  filter: alpha(opacity=50);
+  z-index: 10000;
+  display: none;
+}
+//画一条线
+.line{
+  border-top: 1px solid $grey1;
+  width: 100%;
+}

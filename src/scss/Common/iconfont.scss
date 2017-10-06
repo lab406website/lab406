@@ -1,0 +1,206 @@
+//@font-face {
+//  font-family: 'iconfont';
+//  src: url('//at.alicdn.com/t/font_1465189067_5263636.eot');
+//  /* IE9*/
+//  src: url('//at.alicdn.com/t/font_1465189067_5263636.eot?#iefix') format("embedded-opentype"), url('//at.alicdn.com/t/font_1465189067_5263636.woff') format("woff"), url('//at.alicdn.com/t/font_1465189067_5263636.ttf') format("truetype"), url('//at.alicdn.com/t/font_1465189067_5263636.svg#iconfont') format("svg");
+//  /* iOS 4.1- */
+//}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1465200450_2672927.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1465200450_2672927.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1465200450_2672927.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1465200450_2672927.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1465200450_2672927.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+
+
+
+
+
+
+.iconfont {
+  font-family: "iconfont" !important;
+  //font-size: 16px;
+  font-size: 40px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+i[class^="icon"]{
+  color: $grey4;
+}
+
+.icon-mp3:before {
+  &{
+   color: $red;
+  }
+  content: "\e600";
+}
+
+.icon-ppt:before {
+  &{
+    color: $red;
+    font-size: 33px;
+  }
+  content: "\e61a";
+}
+
+.icon-word:before {
+  &{
+    color: $blue;;
+    font-size: 33px;
+  }
+  content: "\e61c";
+}
+
+.icon-txt:before{
+  &{
+    //font-size: 30px;
+    font-size: 47px;
+    color: $grey4;
+  }
+  content: "\e603";
+}
+
+.icon-sql:before{
+  content:"\e605";
+}
+
+.icon-jpg:before{
+  &{
+    font-size: 35px;
+  }
+  content:"\e619";
+}
+
+.icon-xls:before{
+  &{
+    color: $green;;
+    font-size: 35px;
+  }
+  content:"\e61b";
+}
+
+.icon-chm:before{
+  &{
+    font-size: 38px;
+  }
+  content:"\e611";
+}
+
+.icon-mp4:before{
+  content:"\e604";
+}
+
+.icon-visio:before{
+  &{
+    font-size: 33px;
+    color: $grey3;
+  }
+  content:"\e618";
+}
+
+.icon-pdf:before{
+  &{
+    color: $grey3;
+  }
+  content:"\e608";
+}
+.icon-zip:before{
+  &{
+    font-size: 35px;
+  }
+  content:"\e60c";
+}
+
+.icon-rar:before{
+  &{
+    font-size: 35px;
+  }
+  content:"\e60a";
+}
+
+.icon-jar:before{
+  &{
+    font-size: 32px;
+  }
+  content:"\e613";
+}
+
+.icon-gif:before{
+  content:"\e60f";
+}
+
+.icon-png:before{
+  content:"\e610";
+}
+
+.icon-avi:before{
+  content:"\e606";
+}
+
+.icon-wma:before{
+  content:"\e616";
+}
+
+.icon-rmvb:before{
+  content:"\e617";
+}
+
+.icon-rm:before{
+  content:"\e615";
+}
+
+.icon-flv:before{
+  &{
+    font-size: 33px;
+  }
+  content:"\e607";
+}
+
+.icon-bmp:before{
+  content:"\e614";
+}
+
+.icon-psd:before{
+  content:"\e60d";
+}
+
+.icon-html:before{
+  &{
+    color: $deep_red;
+  }
+  content:"\e60e";
+}
+
+.icon-else:before{
+  &{
+    font-size: 32px;
+  }
+  content:"\e612";
+}
+
+.icon-smile:before{
+  &{
+    font-size: 35px;
+    margin-right: 10px;
+    margin-left: 20px;
+    color: $green;
+  }
+  content: "\e61d";
+}
+.icon-cry:before{
+  &{
+    font-size: 35px;
+    margin-right: 10px;
+    margin-left: 20px;
+    color: $red;
+  }
+  content: "\e61e";
+}
+

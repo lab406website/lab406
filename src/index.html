@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="./css/app.min.css"/>
+<link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css"/>
+<script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
+<script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.ie8polyfill.min.js"></script>
+<script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.widgets.helper.min.js"></script>
+
+<body>
+<header class="am-topbar am-topbar-fixed-top">
+    <div class="am-container">
+        <h1 class="am-topbar-brand">
+            <a href="#">HSL实验室</a>
+        </h1>
+
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only"
+                data-am-collapse="{target: '#collapse-head'}"><span class="am-sr-only">导航切换</span> <span
+                class="am-icon-bars"></span></button>
+
+        <div class="am-collapse am-topbar-collapse" id="collapse-head">
+            <ul class="am-nav am-nav-pills am-topbar-nav">
+                <li class="am-active"><a href="#">首页</a></li>
+                <li class="am-dropdown" data-am-dropdown>
+                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                        信息发布 <span class="am-icon-caret-down"></span>
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li class="am-dropdown-header">标题</li>
+                        <li><a href="#">1. 交流活动</a></li>
+                        <li><a href="#">2. 学生风采</a></li>
+                        <li><a href="#">3. 娱乐活动</a></li>
+                        <li><a href="#">4. 组会记录</a></li>
+                        <li><a href="#">5. 硕博招生信息</a></li>
+                    </ul>
+                </li>
+                <li class="am-dropdown" data-am-dropdown>
+                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                        实验室介绍 <span class="am-icon-caret-down"></span>
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li class="am-dropdown-header">标题</li>
+                        <li><a href="#">1. 导师介绍</a></li>
+                        <li><a href="#">2. 成员介绍</a></li>
+                    </ul>
+                </li>
+                <li class="am-dropdown" data-am-dropdown>
+                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                        科研工作 <span class="am-icon-caret-down"></span>
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li class="am-dropdown-header">标题</li>
+                        <li><a href="#">1. 论文</a></li>
+                        <li><a href="#">2. 竞赛</a></li>
+                        <li><a href="#">3. 课题项目</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">问答区</a></li>
+                <li><a href="#">相册</a></li>
+                <li><a href="#">博客</a></li>
+            </ul>
+
+            <div class="am-topbar-right">
+                <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm"><span class="am-icon-pencil"></span> 注册</button>
+            </div>
+
+            <div class="am-topbar-right">
+                <button class="am-btn am-btn-primary am-topbar-btn am-btn-sm"><span class="am-icon-user"></span> 登录</button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="main">
+    <div class="contents">
+        <div class="photo_roll">
+            <div data-am-widget="slider" class="am-slider am-slider-d3" data-am-slider='{&quot;controlNav&quot;:&quot;thumbnails&quot;,&quot;directionNav&quot;:false}' >
+                <ul class="am-slides">
+                    <li data-thumb="http://s.amazeui.org/media/i/demos/bing-1.jpg">
+                        <img src="http://s.amazeui.org/media/i/demos/bing-1.jpg">
+                        <div class="am-slider-desc"><h2 class="am-slider-title">远方 有一个地方 那里种有我们的梦想</h2><p>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内</p></div>
+
+                    </li>
+                    <li data-thumb="http://s.amazeui.org/media/i/demos/bing-2.jpg">
+                        <img src="http://s.amazeui.org/media/i/demos/bing-2.jpg">
+                        <div class="am-slider-desc"><h2 class="am-slider-title">某天 也许会相遇 相遇在这个好地方</h2><p>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内</p></div>
+
+                    </li>
+                    <li data-thumb="http://s.amazeui.org/media/i/demos/bing-3.jpg">
+                        <img src="http://s.amazeui.org/media/i/demos/bing-3.jpg">
+                        <div class="am-slider-desc"><h2 class="am-slider-title">不要太担心 只因为我相信 终会走过这条遥远的道路</h2><p>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内</p></div>
+
+                    </li>
+                    <li data-thumb="http://s.amazeui.org/media/i/demos/bing-4.jpg">
+                        <img src="http://s.amazeui.org/media/i/demos/bing-4.jpg">
+                        <div class="am-slider-desc"><h2 class="am-slider-title">OH PARA PARADISE 是否那么重要 你是否那么地遥远</h2><p>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内</p></div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="secondwrap">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-8 secondwrap_left">
+                                        <div class="row">
+                                            <div class="col-md-5 news">
+                                                <div class="title">最新内容</div>
+                                                <div class="more"><a href="">more>></a></div>
+                                                <ul>
+                                                    <li><a href=""><i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;这里是一个最新内容啊啊啊啊啊啊啊啊啊啊啊啊</a><span class="newsdata">2017-09-12</span></li>
+                                                    <li><a href=""><i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;这里是一个最新内容啊啊啊啊啊啊啊啊啊啊啊啊</a><span class="newsdata">2017-09-12</span></li>
+                                                    <li><a href=""><i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;这里是一个最新内容啊啊啊啊啊啊啊啊啊啊啊啊</a><span class="newsdata">2017-09-12</span></li>
+                                                    <li><a href=""><i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;这里是一个最新内容啊啊啊啊啊啊啊啊啊啊啊啊</a><span class="newsdata">2017-09-12</span></li>
+                                                    <li><a href=""><i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;这里是一个最新内容啊啊啊啊啊啊啊啊啊啊啊啊</a><span class="newsdata">2017-09-12</span></li>
+                                                    <li><a href=""><i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;这里是一个最新内容啊啊啊啊啊啊啊啊啊啊啊啊</a><span class="newsdata">2017-09-12</span></li>
+                                                    <li><a href=""><i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;这里是一个最新内容啊啊啊啊啊啊啊啊啊啊啊啊</a><span class="newsdata">2017-09-12</span></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-5 col-md-offset-1 notice">
+                                                <div class="title">最新公告</div>
+                                                <div class="more"><a href="">more>></a></div>
+                                                <ul>
+                                                    <li><a href=""><i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;这里是一个最新内容啊啊啊啊啊啊啊啊啊啊啊啊</a><span class="noticedata">2017-09-12</span></li>
+                                                    <li><a href=""><i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;这里是一个最新内容啊啊啊啊啊啊啊啊啊啊啊啊</a><span class="noticedata">2017-09-12</span></li>
+                                                    <li><a href=""><i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;这里是一个最新内容啊啊啊啊啊啊啊啊啊啊啊啊</a><span class="noticedata">2017-09-12</span></li>
+                                                    <li><a href=""><i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;这里是一个最新内容啊啊啊啊啊啊啊啊啊啊啊啊</a><span class="noticedata">2017-09-12</span></li>
+                                                    <li><a href=""><i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;这里是一个最新内容啊啊啊啊啊啊啊啊啊啊啊啊</a><span class="noticedata">2017-09-12</span></li>
+                                                    <li><a href=""><i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;这里是一个最新内容啊啊啊啊啊啊啊啊啊啊啊啊</a><span class="noticedata">2017-09-12</span></li>
+                                                    <li><a href=""><i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;这里是一个最新内容啊啊啊啊啊啊啊啊啊啊啊啊</a><span class="noticedata">2017-09-12</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 secondwrap_right">
+                                        <div class="recommend-2 flex-col">
+                                            <div class="title">
+                                                <ul>
+                                                    <li class="article recommend-title-active">本周热门</li>
+                                                    <li class="plan">本月热门</li>
+                                                </ul>
+                                            </div>
+                                            <div class="list-article">
+                                                <ul>
+                                                    <li><a href="">1.这里是文章</a></li>
+                                                    <li><a href="">2.Cursor:url()的使用</a></li>
+                                                    <li><a href="">3.Java基本数据类型与包装类、字符串之间的转换dafadfasfasdfasdfasdf</a></li>
+                                                    <li><a href="">4.ImageView自动来回循环移动,用到Animation</a></li>
+                                                    <li><a href="">5.关于JDBC的连接深入理解</a></li>
+                                                    <li><a href="">5.关于JDBC的连接深入理解</a></li>
+                                                    <a href="" class="more pull-right">&gt;&gt;More</a>
+                                                </ul>
+                                            </div>
+                                            <div class="list-plan">
+                                                <ul>
+                                                    <li><a href="">1.这里是计划</a></li>
+                                                    <li><a href="">2.Cursor:url()的使用</a></li>
+                                                    <li><a href="">3.Java基本数据类型与包装类、字符串之间的转换dafadfasfasdfasdfasdf</a></li>
+                                                    <li><a href="">4.ImageView自动来回循环移动,用到Animation</a></li>
+                                                    <li><a href="">5.关于JDBC的连接深入理解</a></li>
+                                                    <li><a href="">5.关于JDBC的连接深入理解</a></li>
+                                                    <a href="" class="more pull-right">&gt;&gt;More</a>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="thirdwrap">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4 knowledge">
+                                <div class="title">
+                                    知识堂&nbsp;
+                                    <i class="fa fa-book"></i>
+                                    <div class="more"><a href="">more>></a></div>
+                                </div>
+                                <div class="small_contents">
+                                    <ul>
+                                        <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="">将使您的网站在视网膜级的高分屏上大放异彩。 完美兼容其它框架 尽管是为Bootstrap设计</a></li>
+                                        <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="">将使您的网站在视网膜级的高分屏上大放异彩。 完美兼容其它框架 尽管是为Bootstrap设计</a></li>
+                                        <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="">将使您的网站在视网膜级的高分屏上大放异彩。 完美兼容其它框架 尽管是为Bootstrap设计</a></li>
+                                        <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="">将使您的网站在视网膜级的高分屏上大放异彩。 完美兼容其它框架 尽管是为Bootstrap设计</a></li>
+                                        <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="">将使您的网站在视网膜级的高分屏上大放异彩。 完美兼容其它框架 尽管是为Bootstrap设计</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 class">
+                                <div class="title">
+                                    小组会&nbsp;
+                                    <i class="fa fa-group"></i>
+                                    <div class="more"><a href="">more>></a></div>
+                                </div>
+                                <div class="small_contents">
+                                    <ul>
+                                        <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="">将使您的网站在视网膜级的高分屏上大放异彩。 完美兼容其它框架 尽管是为Bootstrap设计</a></li>
+                                        <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="">将使您的网站在视网膜级的高分屏上大放异彩。 完美兼容其它框架 尽管是为Bootstrap设计</a></li>
+                                        <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="">将使您的网站在视网膜级的高分屏上大放异彩。 完美兼容其它框架 尽管是为Bootstrap设计</a></li>
+                                        <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="">将使您的网站在视网膜级的高分屏上大放异彩。 完美兼容其它框架 尽管是为Bootstrap设计</a></li>
+                                        <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="">将使您的网站在视网膜级的高分屏上大放异彩。 完美兼容其它框架 尽管是为Bootstrap设计</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 information">
+                                <div class="title">
+                                    咨讯堂&nbsp;
+                                    <i class="fa fa-bullhorn"></i>
+                                    <div class="more"><a href="">more>></a></div>
+                                </div>
+                                <div class="small_contents">
+                                    <ul>
+                                        <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="">将使您的网站在视网膜级的高分屏上大放异彩。 完美兼容其它框架 尽管是为Bootstrap设计</a></li>
+                                        <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="">将使您的网站在视网膜级的高分屏上大放异彩。 完美兼容其它框架 尽管是为Bootstrap设计</a></li>
+                                        <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="">将使您的网站在视网膜级的高分屏上大放异彩。 完美兼容其它框架 尽管是为Bootstrap设计</a></li>
+                                        <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="">将使您的网站在视网膜级的高分屏上大放异彩。 完美兼容其它框架 尽管是为Bootstrap设计</a></li>
+                                        <li><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;<a href="">将使您的网站在视网膜级的高分屏上大放异彩。 完美兼容其它框架 尽管是为Bootstrap设计</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container site-info">
+        <div class="row">
+            <div class="col-xs-2"><a href="/"><img src="images/logo.png" alt="" width="120"></a></div>
+            <div class="col-xs-6">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <h3>统计信息</h3>
+                        <p>网站总访问量 : 1365544</p>
+                        <p>当前在线人数 : 42554</p>
+                        <p>页面加载时间 : 0.000234</p>
+                    </div>
+                    <div class="col-xs-6">
+                        <h3>主办单位</h3>
+                        <p>南京市XXX教育学院</p>
+                        <p>南京市XXX教育研究委员会</p>
+                        <p>南京市XXX教育学会</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-4 contacts">
+                <span>关注我们:</span>
+                <a href=""><i class="contact-icon fa fa-weibo"></i></a>
+                <a href=""><i class="contact-icon fa fa-weixin"></i></a>
+                <a href=""><i class="contact-icon fa fa-qq"></i></a>
+                <a href=""><i class="contact-icon fa fa-renren"></i></a>
+                <div class="contact-detail">
+                    <p><i class="fa fa-map-marker"></i>江苏省南京市</p>
+                    <p><i class="fa fa-phone"></i>123-456-789</p>
+                    <p><i class="fa fa-envelope"></i>1234567@qq.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>江苏省南京市 123-456-789 1234567@qq.com</p>
+        <p>备案号 © Copyright 2016</p>
+    </div>
+</footer>
+</body>
+
+<script>
+    //推荐栏文章变化
+    $(document).ready(function () {
+        $(".article").click(function(){
+            $(".list-article").fadeIn(500);
+            $(".list-plan").hide();
+            $(this).addClass("recommend-title-active");
+            $(".plan").removeClass("recommend-title-active");
+
+        });
+        $(".plan").click(function(){
+            $(".list-article").hide();
+            $(".list-plan").fadeIn(500);
+            $(this).addClass("recommend-title-active");
+            $(".article").removeClass("recommend-title-active");
+        });
+
+    });
+</script>
+</html>

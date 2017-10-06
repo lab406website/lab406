@@ -1,0 +1,104 @@
+#schedual-do{
+  .header{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+  .specialB{
+    margin: 10px 0 15px 0;
+  }
+}
+
+.popspecial{
+  .popbody{
+    overflow: auto;
+  }
+  .carman,.car{
+    .type{
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .carman-floor{
+      margin-top: 15px;
+      margin-left: 40px;
+      width: 80%;
+      height: 50px;
+      //background-color: red;
+      border:1px solid $border_color;
+      position: relative;
+      border-radius: 4px;
+      .name{
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        font-size: 17px;
+        background-color: white;
+      }
+      .other{
+        font-size: 15px;
+        padding-left: 40px;
+        p{
+          line-height: 52px;
+        }
+      }
+      .operate{
+        i{
+          margin-top: 5px;
+          padding: 10px;
+          border-radius: 4px;
+          margin-right: 10px;
+          border:1px solid white;
+          &:hover{
+            border:1px solid $border_color;
+            background-color: $grey2;
+            cursor: pointer;
+            transition-duration: 0.5s;
+          }
+        }
+      }
+      &:hover{
+        transition-duration: 0.5s;
+        background-color: $contain;
+        cursor: pointer;
+      }
+    }
+  }
+}
+//添加司机
+.popcarman-add.popwin{
+  width: 400px;
+  height: 200px;
+  z-index: 10006;
+  position: fixed;
+  top:0;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: 200px;
+  border: 1px solid $border_color !important;
+  border-radius: 4px;
+  .popheader{
+    height: 35px;
+  }
+  .popbody{
+    padding: 10px;
+    height: 163px;
+    background-color: white;
+    input{
+      border-left:none;
+      border-right:none;
+      border-top:none;
+      border-bottom:1px solid $grey2;
+    }
+    .input{
+      margin-left: 66px;
+      margin-bottom: 11px;
+      .name{
+        margin-top: 10px;
+      }
+      .other{
+        margin-top: 20px;
+      }
+    }
+  }
+}

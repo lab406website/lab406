@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+$bg-height:310px;
+.login-bg{
+  //min-height: 630px;
+  //background: url("../images/bg.png") no-repeat;
+  //background-position: top center;
+  //.up{
+  //  background-color: $blue;
+  //  height: $bg-height;
+  //}
+  //.down{
+  //  background-color: $bgcolor;
+  //  height: $bg-height;
+  //}
+  min-height: 630px;
+  background: url(../images/bg.png) top center no-repeat;
+  background-position: -270px -140px;
+  background-color: #f6f6f6;
+}
+
+$login-width:400px;
+$login-height:450px;
+#login-box{
+  width: $login-width;
+  height: $login-height;
+  background: white;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-left:-$login-width/2;
+  margin-top: -$login-height/2;
+
+  box-shadow: 0px 10px 20px;
+  border-radius: 4px;
+  .login-header{
+    //text-align: center;
+    //background-position: center;
+    background:url("../images/header1.png") no-repeat;
+    height: 60px;
+    background-position: 100px -30px;
+  }
+
+  .form-all{
+    span{
+      margin-top:10px;
+    }
+    input{
+      width: 100%;
+      border-radius: 4px;
+      border: 1px solid $border_color;
+      padding: 5px;
+      padding-left: 10px;
+      box-shadow: 0 0 0;
+      margin-top: 10px;
+      &.input-focus{
+        border: 1px solid $blue;
+        border-left:15px solid $blue ;
+        box-shadow: 0px 2px 5px $blue;
+      }
+    }
+    i{
+      margin-top: 12px;
+      color: $grey2;
+      position: absolute;        //使用了绝对定位可能会被窗口大小所限制
+      margin-left:-30px
+    }
+    .tip{
+      font-size: 12px;
+      background: url(http://img.mukewang.com/5453084a00016ae300120012.gif) left no-repeat;
+      color: #be3948;
+      padding-left: 15px;
+      line-height: 30px;
+    }
+    .user-group{
+      margin-top: 10px;
+      .user-input{
+        width: 70%;
+        margin:0 auto;
+      }
+    }
+    .password-group{
+      margin-top: 5px;
+      .password-input{
+        width: 70%;
+        margin:0 auto;
+      }
+    }
+    .codes-group{
+      //margin-top: 5px;
+      .codes-input{
+        width: 70%;
+        margin:0 auto;
+        input{
+          width: 45%;
+          float: left;
+        }
+        .img{
+          float: left;
+          text-align: center;
+          margin-left: 12px;
+          img{
+            height: 32px;
+            /* width: 140px; */
+            margin-top: 10px;
+            width: 140px;
+          }
+        }
+
+      }
+    }
+    .smbutton-group{
+      margin-top: 5px;
+      .smbutton-input{
+        width: 70%;
+        margin:0 auto;
+        line-height: 30px;
+        .checked{
+          float: left;
+          input{
+            width: auto;
+          }
+        }
+        .forget{
+          float:right;
+        }
+      }
+    }
+    button{
+      width: 70%;
+      margin-top: 10px;
+    }
+  }
+
+  .login-footer{
+
+  }
+}
+

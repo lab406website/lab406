@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,oBAAO;EACL,SAAS,EAAE,IAAI;EACf,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI",
+"sources": ["schedual-do.scss"],
+"names": [],
+"file": "schedual-do.css"
+}

@@ -1,0 +1,21 @@
+.pagination {
+  li {
+    a {
+      margin: 5px;
+      color: $grey4;
+    }
+  }
+  .active {
+    a {
+      cursor: default;
+      color: #fff;
+      background-color: $blue;
+      border-color: $deep_blue;
+      &:hover {
+        background-color:  $blue;
+        border-color:  $deep_blue;
+
+      }
+    }
+  }
+}

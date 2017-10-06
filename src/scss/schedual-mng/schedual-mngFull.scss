@@ -1,0 +1,51 @@
+#schedual-mng{
+  .header{
+      font-size: 20px;
+      padding-left: 20px;
+      margin-bottom: 15px;
+  }
+
+  .time-head{
+    margin-bottom: 15px;
+  }
+}
+
+//日历弹出窗口
+.schedual-mng-popStation{
+  width: 800px;
+  height: 500px;
+  z-index: 10005;
+  position: fixed;
+  top:0;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: 100px;
+  .popheader{
+    height: 35px;
+    background-color: #F8F8F8;
+    border-radius: 2px 2px 0 0;
+    line-height: 35px;
+    .title{
+      float: left;
+      padding-left: 10px;
+    }
+    .close{
+      float:right;
+      padding-right: 10px;
+      line-height: 30px;
+    }
+  }
+
+  .popbody{
+    //overflow: hidden;
+    height: 400px;
+    background-color: white;
+    padding: 1px;
+    table{
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+}

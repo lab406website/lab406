@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="./css/app.min.css"/>
+<link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css"/>
+<script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
+<script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.ie8polyfill.min.js"></script>
+<script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.widgets.helper.min.js"></script>
+<body>
+<header class="am-topbar am-topbar-fixed-top">
+    <div class="am-container">
+        <h1 class="am-topbar-brand">
+            <a href="#">HSL实验室</a>
+        </h1>
+
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only"
+                data-am-collapse="{target: '#collapse-head'}"><span class="am-sr-only">导航切换</span> <span
+                class="am-icon-bars"></span></button>
+
+        <div class="am-collapse am-topbar-collapse" id="collapse-head">
+            <ul class="am-nav am-nav-pills am-topbar-nav">
+                <li><a href="#">首页</a></li>
+                <li class="am-dropdown" data-am-dropdown>
+                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                        信息发布 <span class="am-icon-caret-down"></span>
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li class="am-dropdown-header">标题</li>
+                        <li><a href="#">1. 交流活动</a></li>
+                        <li><a href="#">2. 学生风采</a></li>
+                        <li><a href="#">3. 娱乐活动</a></li>
+                        <li><a href="#">4. 组会记录</a></li>
+                        <li><a href="#">5. 硕博招生信息</a></li>
+                    </ul>
+                </li>
+                <li class="am-dropdown" data-am-dropdown>
+                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                        实验室介绍 <span class="am-icon-caret-down"></span>
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li class="am-dropdown-header">标题</li>
+                        <li><a href="#">1. 导师介绍</a></li>
+                        <li><a href="#">2. 成员介绍</a></li>
+                    </ul>
+                </li>
+                <li class="am-dropdown" data-am-dropdown>
+                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                        科研工作 <span class="am-icon-caret-down"></span>
+                    </a>
+                    <ul class="am-dropdown-content">
+                        <li class="am-dropdown-header">标题</li>
+                        <li><a href="#">1. 论文</a></li>
+                        <li><a href="#">2. 竞赛</a></li>
+                        <li><a href="#">3. 课题项目</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">问答区</a></li>
+                <li class="am-active"><a href="#">相册</a></li>
+                <li><a href="#">博客</a></li>
+            </ul>
+
+            <div class="am-topbar-right">
+                <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm"><span class="am-icon-pencil"></span> 注册</button>
+            </div>
+
+            <div class="am-topbar-right">
+                <button class="am-btn am-btn-primary am-topbar-btn am-btn-sm"><span class="am-icon-user"></span> 登录</button>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="main">
+    <div class="contents">
+        <div class="bread">相册>></div>
+        <div class="photoframwork">
+            <div class="title"></div>
+            <div class="photos">
+                <ul data-am-widget="gallery" class="am-gallery am-avg-sm-2 am-gallery-imgbordered" data-am-gallery="{pureview:{weChatImagePreview: false}}">
+                    <li>
+                        <div class="am-gallery-item">
+                            <a href="https://farm4.staticflickr.com/3835/15329524682_554d4c0886_k.jpg" title="远方 有一个地方 那里种有我们的梦想"><img src="https://farm4.staticflickr.com/3835/15329524682_2642280b33_z.jpg" alt="远方 有一个地方 那里种有我们的梦想"/>
+                                <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
+                                <div class="am-gallery-desc">2375-09-26</div></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="am-gallery-item">
+                            <a href="https://farm3.staticflickr.com/2941/15346557971_d8f3d52978_k.jpg" title="某天 也许会相遇 相遇在这个好地方"><img src="https://farm3.staticflickr.com/2941/15346557971_dec5c9ac36_z.jpg" alt="某天 也许会相遇 相遇在这个好地方"/>
+                                <h3 class="am-gallery-title">某天 也许会相遇 相遇在这个好地方</h3>
+                                <div class="am-gallery-desc">2375-09-26</div></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

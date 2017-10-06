@@ -1,0 +1,518 @@
+@charset "UTF-8";
+.line {
+  border-top: 1px solid #ecf0f1;
+  width: 90%; }
+
+body {
+  min-width: 1080px; }
+
+body, a {
+  color: #3B4C56;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  text-decoration: none; }
+
+a:hover {
+  transition-duration: 0.5s;
+  color: #3498DB;
+  text-decoration: none; }
+
+@font-face {
+  font-family: 'headerfont';
+  src: url("../fonts/loveyou.otf"); }
+.flex-col {
+  display: flex;
+  flex-flow: column; }
+
+.flex-row {
+  display: flex;
+  flex-flow: row; }
+
+.flex-1 {
+  flex: 1; }
+
+.flex-2 {
+  flex: 2; }
+
+.flex-3 {
+  flex: 3; }
+
+.flex-4 {
+  flex: 4; }
+
+.flex-5 {
+  flex: 5; }
+
+.flex-6 {
+  flex: 6; }
+
+.flex-7 {
+  flex: 7; }
+
+.flex-8 {
+  flex: 8; }
+
+.flex-9 {
+  flex: 9; }
+
+.flex-10 {
+  flex: 10; }
+
+.flex-11 {
+  flex: 11; }
+
+.flex-12 {
+  flex: 12; }
+
+.line {
+  border-top: 1px solid #ecf0f1;
+  width: 90%; }
+
+body {
+  min-width: 1080px; }
+
+body, a {
+  color: #3B4C56;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  text-decoration: none; }
+
+a:hover {
+  transition-duration: 0.5s;
+  color: #3498DB;
+  text-decoration: none; }
+
+@font-face {
+  font-family: 'headerfont';
+  src: url("../fonts/loveyou.otf"); }
+.flex-col {
+  display: flex;
+  flex-flow: column; }
+
+.flex-row {
+  display: flex;
+  flex-flow: row; }
+
+.flex-1 {
+  flex: 1; }
+
+.flex-2 {
+  flex: 2; }
+
+.flex-3 {
+  flex: 3; }
+
+.flex-4 {
+  flex: 4; }
+
+.flex-5 {
+  flex: 5; }
+
+.flex-6 {
+  flex: 6; }
+
+.flex-7 {
+  flex: 7; }
+
+.flex-8 {
+  flex: 8; }
+
+.flex-9 {
+  flex: 9; }
+
+.flex-10 {
+  flex: 10; }
+
+.flex-11 {
+  flex: 11; }
+
+.flex-12 {
+  flex: 12; }
+
+header {
+  min-width: 1280px;
+  background-color: white;
+  box-shadow: 0px 2px 3px #888888;
+  padding: 15px 0px;
+  font-size: 14px;
+  margin: 0px; }
+  header .logo {
+    font-family: shouxie1,headerfont;
+    font-size: 28px;
+    padding-left: 50px; }
+  header .search {
+    font-size: 15px; }
+  header .button-group {
+    text-align: center;
+    line-height: 27px; }
+    header .button-group .registe {
+      margin-left: 20px; }
+    header .button-group a {
+      transition-duration: 0.5s;
+      text-decoration: none; }
+      header .button-group a:hover {
+        color: #3498DB; }
+  header #modal .modal-dialog-mask {
+    z-index: 9998;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.1;
+    filter: alpha(opacity=40);
+    /*用于支持IE特么的有病*/
+    display: none; }
+  header #modal #login {
+    font-size: 14px;
+    z-index: 9999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -180px 0 0 -330px;
+    border-radius: 5px;
+    border: solid 2px #666;
+    background-color: #fff;
+    display: none;
+    box-shadow: 0 0 10px #666; }
+    header #modal #login .input-group {
+      margin: 30px; }
+  header #modal #register {
+    z-index: 9999;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    margin: -250px 0 0 -330px;
+    border-radius: 5px;
+    border: solid 2px #666;
+    background-color: #fff;
+    display: none;
+    box-shadow: 0 0 10px #666; }
+    header #modal #register .input-group {
+      margin: 30px; }
+
+.main .nav {
+  float: left; }
+  .main .nav .jquery-accordion-menu {
+    min-width: 260px;
+    float: left;
+    position: relative;
+    box-shadow: 10px -3px 10px rgba(0, 0, 0, 0.1); }
+    .main .nav .jquery-accordion-menu #user-image {
+      background-color: white;
+      text-align: center; }
+      .main .nav .jquery-accordion-menu #user-image img {
+        margin: 20px;
+        border: 1px solid #bdc3c7; }
+      .main .nav .jquery-accordion-menu #user-image .user-name {
+        font-size: 16px; }
+    .main .nav .jquery-accordion-menu .jquery-accordion-menu-footer, .main .nav .jquery-accordion-menu .jquery-accordion-menu-header {
+      width: 100%;
+      height: 50px;
+      padding-left: 22px;
+      float: left;
+      line-height: 50px;
+      font-weight: 600;
+      color: #f0f0f0;
+      background: #414956; }
+    .main .nav .jquery-accordion-menu ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .main .nav .jquery-accordion-menu ul li {
+        width: 100%;
+        display: block;
+        float: left;
+        position: relative; }
+        .main .nav .jquery-accordion-menu ul li a {
+          width: 100%;
+          padding: 14px 22px;
+          float: left;
+          text-decoration: none;
+          color: #f0f0f0;
+          font-size: 13px;
+          background: #414956;
+          white-space: nowrap;
+          position: relative;
+          overflow: hidden;
+          -o-transition: color .2s linear,background .2s linear;
+          -moz-transition: color .2s linear,background .2s linear;
+          -webkit-transition: color .2s linear,background .2s linear;
+          transition: color 0.2s linear, background 0.2s linear; }
+          .main .nav .jquery-accordion-menu ul li a i {
+            width: 34px;
+            float: left;
+            line-height: 18px;
+            font-size: 16px;
+            text-align: left; }
+    .main .nav .jquery-accordion-menu > ul > li.active > a, .main .nav .jquery-accordion-menu > ul > li:hover > a {
+      color: #fff;
+      background: #3b424d; }
+    .main .nav .jquery-accordion-menu > ul > li > a {
+      border-bottom: solid 1px #3b424d; }
+    .main .nav .jquery-accordion-menu .submenu-indicator {
+      float: right;
+      right: 22px;
+      position: absolute;
+      line-height: 19px;
+      font-size: 20px;
+      -o-transition: transform .3s linear;
+      -moz-transition: transform .3s linear;
+      -webkit-transition: transform .3s linear;
+      -ms-transition: transform 0.3s linear; }
+    .main .nav .jquery-accordion-menu ul ul.submenu .submenu-indicator {
+      line-height: 16px; }
+    .main .nav .jquery-accordion-menu .submenu-indicator-minus > .submenu-indicator {
+      -ms-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg); }
+    .main .nav .jquery-accordion-menu ul ul.submenu {
+      width: 100%;
+      display: none;
+      position: static; }
+      .main .nav .jquery-accordion-menu ul ul.submenu li {
+        clear: both;
+        width: 100%; }
+        .main .nav .jquery-accordion-menu ul ul.submenu li ul.submenu {
+          width: 100%;
+          display: none;
+          position: static; }
+        .main .nav .jquery-accordion-menu ul ul.submenu li a {
+          width: 100%;
+          float: left;
+          font-size: 11px;
+          background: #383838;
+          border-top: none;
+          position: relative;
+          border-left: solid 6px transparent;
+          -o-transition: border .2s linear;
+          -moz-transition: border .2s linear;
+          -webkit-transition: border .2s linear;
+          transition: border 0.2s linear; }
+        .main .nav .jquery-accordion-menu ul ul.submenu li:hover > a {
+          border-left-color: #414956; }
+      .main .nav .jquery-accordion-menu ul ul.submenu > li > a {
+        padding-left: 30px; }
+      .main .nav .jquery-accordion-menu ul ul.submenu > li > ul.submenu > li > a {
+        padding-left: 45px; }
+      .main .nav .jquery-accordion-menu ul ul.submenu > li > ul.submenu > li > ul.submenu > li > a {
+        padding-left: 60px; }
+    .main .nav .jquery-accordion-menu ul li .jquery-accordion-menu-label {
+      min-width: 20px;
+      padding: 1px 2px 1px 1px;
+      position: absolute;
+      right: 18px;
+      top: 14px;
+      font-size: 11px;
+      font-weight: 800;
+      color: #555;
+      text-align: center;
+      line-height: 18px;
+      background: #f0f0f0;
+      border-radius: 100%; }
+    .main .nav .jquery-accordion-menu ul ul.submenu li .jquery-accordion-menu-label {
+      min-width: 20px;
+      padding: 1px 2px 1px 1px;
+      position: absolute;
+      right: 18px;
+      top: 14px;
+      font-size: 11px;
+      font-weight: 800;
+      color: #555;
+      text-align: center;
+      line-height: 18px;
+      background: #f0f0f0;
+      border-radius: 100%;
+      top: 12px; }
+  .main .nav .ink {
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0); }
+  .main .nav .animate-ink {
+    -webkit-animation: ripple .5s linear;
+    -moz-animation: ripple .5s linear;
+    -ms-animation: ripple .5s linear;
+    -o-animation: ripple .5s linear;
+    animation: ripple 0.5s linear; }
+@-webkit-keyframes ripple {
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(2.5); } }
+@-moz-keyframes ripple {
+  100% {
+    opacity: 0;
+    -moz-transform: scale(2.5); } }
+@-o-keyframes ripple {
+  100% {
+    opacity: 0;
+    -o-transform: scale(2.5); } }
+@keyframes ripple {
+  100% {
+    opacity: 0;
+    transform: scale(2.5); } }
+  .main .nav .blue.jquery-accordion-menu .jquery-accordion-menu-footer, .main .nav .blue.jquery-accordion-menu .jquery-accordion-menu-header {
+    background: #4A89DC; }
+  .main .nav .blue.jquery-accordion-menu ul li a {
+    background: #4A89DC; }
+  .main .nav .blue.jquery-accordion-menu ul ul.submenu li:hover > a {
+    border-left-color: #3e82da; }
+  .main .nav .blue.jquery-accordion-menu > ul > li.active > a, .main .nav .blue.jquery-accordion-menu > ul > li:hover > a {
+    background: #3e82da; }
+  .main .nav .blue.jquery-accordion-menu > ul > li > a {
+    border-bottom-color: #3e82da; }
+  .main .nav .green.jquery-accordion-menu .jquery-accordion-menu-footer, .main .nav .green.jquery-accordion-menu .jquery-accordion-menu-header {
+    background: #03A678; }
+  .main .nav .green.jquery-accordion-menu ul li a {
+    background: #03A678; }
+  .main .nav .green.jquery-accordion-menu ul ul.submenu li:hover > a {
+    border-left-color: #049372; }
+  .main .nav .green.jquery-accordion-menu > ul > li.active > a, .main .nav .green.jquery-accordion-menu > ul > li:hover > a {
+    background: #049372; }
+  .main .nav .green.jquery-accordion-menu > ul > li > a {
+    border-bottom-color: #049372; }
+  .main .nav .red.jquery-accordion-menu .jquery-accordion-menu-footer, .main .nav .red.jquery-accordion-menu .jquery-accordion-menu-header {
+    background: #ED5565; }
+  .main .nav .red.jquery-accordion-menu ul li a {
+    background: #ED5565; }
+  .main .nav .red.jquery-accordion-menu ul ul.submenu li:hover > a {
+    border-left-color: #DA4453; }
+  .main .nav .red.jquery-accordion-menu > ul > li.active > a, .main .nav .red.jquery-accordion-menu > ul > li:hover > a {
+    background: #DA4453; }
+  .main .nav .red.jquery-accordion-menu > ul > li > a {
+    border-bottom-color: #DA4453; }
+  .main .nav .white.jquery-accordion-menu .filterinput {
+    border-color: #95a5a6;
+    color: #95a5a6;
+    font-size: 12px;
+    padding-left: 15px;
+    font-weight: 100; }
+  .main .nav .white.jquery-accordion-menu .jquery-accordion-menu-footer, .main .nav .white.jquery-accordion-menu .jquery-accordion-menu-header {
+    background: #fff;
+    color: #555; }
+  .main .nav .white.jquery-accordion-menu ul li a {
+    background: #fff;
+    color: #555; }
+  .main .nav .white.jquery-accordion-menu ul ul.submenu li:hover > a {
+    border-left-color: #f0f0f0; }
+  .main .nav .white.jquery-accordion-menu ul ul.submenu li a {
+    color: #f0f0f0; }
+  .main .nav .white.jquery-accordion-menu > ul > li.active > a, .main .nav .white.jquery-accordion-menu > ul > li:hover > a {
+    background: #f0f0f0; }
+  .main .nav .white.jquery-accordion-menu > ul > li > a {
+    border-bottom-color: #f0f0f0; }
+  .main .nav .white.jquery-accordion-menu > ul > li > a > .ink {
+    background: rgba(0, 0, 0, 0.1); }
+  .main .nav .black.jquery-accordion-menu .jquery-accordion-menu-footer, .main .nav .black.jquery-accordion-menu .jquery-accordion-menu-header {
+    background: #292929; }
+  .main .nav .black.jquery-accordion-menu ul li a {
+    background: #292929; }
+  .main .nav .black.jquery-accordion-menu ul ul.submenu li:hover > a {
+    border-left-color: #222; }
+  .main .nav .black.jquery-accordion-menu > ul > li.active > a, .main .nav .black.jquery-accordion-menu > ul > li:hover > a {
+    background: #222; }
+  .main .nav .black.jquery-accordion-menu > ul > li > a {
+    border-bottom-color: #222; }
+.main .line {
+  border-top: 1px solid #ecf0f1;
+  width: 90%; }
+.main body {
+  min-width: 1080px; }
+.main body, .main a {
+  color: #3B4C56;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  text-decoration: none; }
+.main a:hover {
+  transition-duration: 0.5s;
+  color: #3498DB;
+  text-decoration: none; }
+@font-face {
+  .main {
+    font-family: 'headerfont';
+    src: url("../fonts/loveyou.otf"); } }
+.main .flex-col {
+  display: flex;
+  flex-flow: column; }
+.main .flex-row {
+  display: flex;
+  flex-flow: row; }
+.main .flex-1 {
+  flex: 1; }
+.main .flex-2 {
+  flex: 2; }
+.main .flex-3 {
+  flex: 3; }
+.main .flex-4 {
+  flex: 4; }
+.main .flex-5 {
+  flex: 5; }
+.main .flex-6 {
+  flex: 6; }
+.main .flex-7 {
+  flex: 7; }
+.main .flex-8 {
+  flex: 8; }
+.main .flex-9 {
+  flex: 9; }
+.main .flex-10 {
+  flex: 10; }
+.main .flex-11 {
+  flex: 11; }
+.main .flex-12 {
+  flex: 12; }
+.main .contents {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 5px; }
+  .main .contents .header-all {
+    margin-left: auto;
+    margin-right: auto; }
+    .main .contents .header-all .header {
+      border-bottom: 2px solid #95a5a6;
+      padding-bottom: 5px; }
+      .main .contents .header-all .header .path {
+        font-size: 20px;
+        padding-left: 20px;
+        margin-bottom: 15px; }
+    .main .contents .header-all .file-body .first-floor {
+      padding-left: 20px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      font-size: 16px; }
+      .main .contents .header-all .file-body .first-floor .filename {
+        padding-left: 60px; }
+    .main .contents .header-all .file-body .body-floor {
+      height: 50px;
+      padding-left: 20px; }
+      .main .contents .header-all .file-body .body-floor:hover {
+        background-color: #ecf0f1;
+        transition-duration: 0.5s; }
+      .main .contents .header-all .file-body .body-floor .checkbox {
+        line-height: 35px; }
+      .main .contents .header-all .file-body .body-floor .file-image {
+        line-height: 75px; }
+      .main .contents .header-all .file-body .body-floor .file-name {
+        margin-left: 10px;
+        line-height: 60px; }
+      .main .contents .header-all .file-body .body-floor .file-size {
+        line-height: 60px; }
+      .main .contents .header-all .file-body .body-floor .file-creator {
+        line-height: 60px; }
+      .main .contents .header-all .file-body .body-floor .file-time {
+        line-height: 60px; }
+
+/*# sourceMappingURL=file-shared.css.map */
