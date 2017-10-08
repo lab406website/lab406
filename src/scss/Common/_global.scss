@@ -129,11 +129,25 @@
 }
 //画一条线
 .line{
-  border-top: 1px solid $grey1;
+  border-top: 2px solid $border_color;
   width: 100%;
 }
 
 //清除padding
 .clearpadding{
   padding: 0px;
+}
+
+//一般标签栏的标题
+.title{
+  font-size: 1.45em;
+  font-weight: bold;
+  color: rgba(0,0,0,0.8);
+  vertical-align: top;
+  padding: 10px;
+}
+
+//一般的边界
+.default_border{
+  border: 1px solid $border_color;
 }

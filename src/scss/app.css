@@ -10518,11 +10518,21 @@ button.close {
   display: none; }
 
 .line {
-  border-top: 1px solid #ecf0f1;
+  border-top: 2px solid #dbdbdb;
   width: 100%; }
 
 .clearpadding {
   padding: 0px; }
+
+.title {
+  font-size: 1.45em;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8);
+  vertical-align: top;
+  padding: 10px; }
+
+.default_border {
+  border: 1px solid #dbdbdb; }
 
 @font-face {
   font-family: 'iconfont';
@@ -13584,5 +13594,18 @@ footer {
         text-decoration: none; }
         .main .contents .photoframwork .rightwrap .sidebar-container .sidebar-list ul li a:hover {
           color: #42b983; }
+
+.main .contents .membersframwork .leftwrap img {
+  width: 140px;
+  height: 140px; }
+.main .contents .membersframwork .leftwrap .year {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+.main .contents .membersframwork .leftwrap .img_title {
+  text-align: center; }
+.main .contents .membersframwork .leftwrap table {
+  margin-top: 28px; }
+  .main .contents .membersframwork .leftwrap table tr {
+    cursor: pointer; }
 
 /*# sourceMappingURL=app.css.map */

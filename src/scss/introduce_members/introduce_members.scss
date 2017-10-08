@@ -1,0 +1,30 @@
+@charset "utf-8";
+.main{
+  .contents{
+    .membersframwork{
+      .leftwrap{
+        img{
+          width: 140px;
+          height: 140px;
+        }
+        .year{
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+        .img_title{
+          text-align: center;
+        }
+        table{
+          margin-top: 28px;
+          font-size: 12px;
+          tr{
+            cursor: pointer;
+          }
+        }
+      }
+      .rightwrap{
+
+      }
+    }
+  }
+}
