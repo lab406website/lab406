@@ -151,3 +151,14 @@
 .default_border{
   border: 1px solid $border_color;
 }
+.getMargin{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+//列表
+.li_active{
+  a{
+    color:#0e90d2 !important;
+  }
+}

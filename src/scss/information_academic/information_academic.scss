@@ -1,24 +1,26 @@
 @charset "utf-8";
 .main{
   .contents{
-    .membersframwork{
+    .academicframwork{
       .leftwrap{
-        img{
-          width: 140px;
-          height: 140px;
-        }
-        .year{
-          margin-top: 20px;
-          margin-bottom: 20px;
-        }
-        .img_title{
-          text-align: center;
-        }
-        table{
-          margin-top: 28px;
-          font-size: 12px;
-          tr{
-            cursor: pointer;
+        .am-list{
+          li{
+            &:hover{
+              transition-duration: 0.3s;
+              background-color: $grey1;
+              a{
+                transition-duration: 0.3s;
+                color: $grey6;
+              }
+            }
+            padding:0px 10px;
+          }
+          a{
+            color: $grey4;
+            text-decoration: none;
+          }
+          .datatime{
+            color: $grey3;
           }
         }
       }

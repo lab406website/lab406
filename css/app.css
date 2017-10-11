@@ -10719,6 +10719,13 @@ button.close {
 .default_border {
   border: 1px solid #dbdbdb; }
 
+.getMargin {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.li_active a {
+  color: #0e90d2 !important; }
+
 @font-face {
   font-family: 'iconfont';
   src: url("//at.alicdn.com/t/font_1465200450_2672927.eot");
@@ -13808,3 +13815,75 @@ footer {
   font-size: 12px; }
   .main .contents .membersframwork .leftwrap table tr {
     cursor: pointer; }
+
+.main .contents .membersframwork .rightwrap .am-titlebar-multi {
+  background: #e74c3c;
+  margin-top: 0px;
+  border: none; }
+  .main .contents .membersframwork .rightwrap .am-titlebar-multi img {
+    position: absolute;
+    top: 18px;
+    left: 102px; }
+  .main .contents .membersframwork .rightwrap .am-titlebar-multi .am-titlebar-title {
+    color: white; }
+  .main .contents .membersframwork .rightwrap .am-titlebar-multi .am-titlebar-nav a {
+    color: white; }
+
+.main .contents .membersframwork .rightwrap .am-list {
+  margin-top: 0px; }
+  .main .contents .membersframwork .rightwrap .am-list a {
+    text-decoration: none; }
+  .main .contents .membersframwork .rightwrap .am-list .hot {
+    padding: 1px 5px;
+    background: #e74c3c;
+    color: white;
+    font-size: 11px; }
+  .main .contents .membersframwork .rightwrap .am-list .default {
+    padding: 1px 5px;
+    background: #bdc3c7;
+    color: white;
+    font-size: 11px; }
+
+.main .contents .academicframwork .leftwrap .am-list li {
+  padding: 0px 10px; }
+  .main .contents .academicframwork .leftwrap .am-list li:hover {
+    transition-duration: 0.3s;
+    background-color: #ecf0f1; }
+    .main .contents .academicframwork .leftwrap .am-list li:hover a {
+      transition-duration: 0.3s;
+      color: #2c3e50; }
+
+.main .contents .academicframwork .leftwrap .am-list a {
+  color: #7f8c8d;
+  text-decoration: none; }
+
+.main .contents .academicframwork .leftwrap .am-list .datatime {
+  color: #95a5a6; }
+
+.main .contents .academicframwork .rightwrap .am-titlebar-multi {
+  background: #e74c3c;
+  margin-top: 0px;
+  border: none; }
+  .main .contents .academicframwork .rightwrap .am-titlebar-multi img {
+    position: absolute;
+    top: 18px;
+    left: 102px; }
+  .main .contents .academicframwork .rightwrap .am-titlebar-multi .am-titlebar-title {
+    color: white; }
+  .main .contents .academicframwork .rightwrap .am-titlebar-multi .am-titlebar-nav a {
+    color: white; }
+
+.main .contents .academicframwork .rightwrap .am-list {
+  margin-top: 0px; }
+  .main .contents .academicframwork .rightwrap .am-list a {
+    text-decoration: none; }
+  .main .contents .academicframwork .rightwrap .am-list .hot {
+    padding: 1px 5px;
+    background: #e74c3c;
+    color: white;
+    font-size: 11px; }
+  .main .contents .academicframwork .rightwrap .am-list .default {
+    padding: 1px 5px;
+    background: #bdc3c7;
+    color: white;
+    font-size: 11px; }
